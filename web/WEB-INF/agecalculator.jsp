@@ -26,6 +26,6 @@
             <p>${message1}</p>
         <p>${message}</p>
         <!-- <p>${age1}</p>-->
-             <a href="/arithmetic">Arithmetic Calculator</a> 
+             <a href="/Calculator/arithmetic">Arithmetic Calculator</a> 
     </body>
 </html>

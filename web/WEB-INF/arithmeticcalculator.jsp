@@ -8,7 +8,7 @@
     </head>
     <body>
         <h1>Arithmetic Calculator</h1>
-        <form method="POST" action="age">
+        <form method="POST" action="arithmetic">
             <label>First:</label>
             <input type="text" name="1st" value="${one}">
             <br>
@@ -18,14 +18,13 @@
          
          
               <br><br>
-              <input type="submit" value="+">
-              <input type="submit" value="-">
-              <input type="submit" value="*">
-              <input type="submit" value="%">
+              <input type="submit" name="submit1" value="${plus}+">
+              <input type="submit" name="submit1" value="${minus}-">
+              <input type="submit" name="submit1" value="${multi}*">
+              <input type="submit" name="submit1" value="${rem}%">
         </form>
-            <p>${message1}</p>
-        <p>${message}</p>
-        <!-- <p>${age1}</p>-->
-             <a href="/age">Arithmetic Calculator</a> 
+            <p>${Result}</p>
+        
+             <a href="/Calculator/age">Age Calculator</a> 
     </body>
 </html>
