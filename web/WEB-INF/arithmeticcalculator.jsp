@@ -23,7 +23,7 @@
               <input type="submit" name="submit1" value="${multi}*">
               <input type="submit" name="submit1" value="${rem}%">
         </form>
-            <p>${Result}</p>
+            <p>Result: ${Result}</p>
         
              <a href="/Calculator/age">Age Calculator</a> 
     </body>

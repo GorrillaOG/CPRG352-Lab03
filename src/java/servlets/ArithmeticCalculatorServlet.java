@@ -24,9 +24,12 @@ public class ArithmeticCalculatorServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         //load up JPS
+        request.setAttribute("Result", " ----" );
         getServletContext().getRequestDispatcher("/WEB-INF/arithmeticcalculator.jsp").forward(request, response);
         //stop the code call after loading JSP
+        
         return;
+         
     }
 
     @Override
